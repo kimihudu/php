@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            // "url": "${workspaceRoot}/index.html",
+            "file": "${workspaceRoot}/checkout.html",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:5000",
+            "webRoot": "${workspaceRoot}/index.html"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}

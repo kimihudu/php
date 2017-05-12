@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" href = "css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/colorbox.css" />
+	<script src = "js/bootstrap.min.js"></script>
+	<script src = "js/jquery.js"></script>
+	<script src="js/jquery.colorbox.js"></script>
+	<script src = "js/login.js"></script>
+	<style>
+		body 
+		{
+			background-color: linen;
+			text-align: center;
+			text-align: center;
+		}
+
+		h1 
+		{
+			color: maroon;
+			
+		} 
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div style='display:none'>
+			<div id = "login_div">
+				<h1>Login</h1>
+				<br/><br/>
+				<p>User Name : <input type="text" id="user" name="username"></p><br />&nbsp;
+				<p>Password  : <input type="password" id="pword" name="password"></p><br />
+
+				<input type = "button" id = "enter"  value = "Enter"> &nbsp; &nbsp; &nbsp;
+				<input type = "button" id = "exit"  value = "Abort"> <br />
+				<p>	</p>
+			</div>
+		</div>
+
+		<div style='display:none'>
+			<div id = "edit_area">
+				<h1>Edit</h1>
+				<br/><br/>
+
+				<input type = "button" id = "enter"  value = "Enter"> &nbsp; &nbsp; &nbsp;
+				<input type = "button" id = "exit"  value = "Abort"> <br />
+				<p>	</p>
+			</div>
+		</div>
+
+		<p> </p>
+		<!--<p><a class='inline' href="#login_div">Inline HTML</a></p>-->
+		<div id = "result" style="text-align: center">
+			<p>Result Area</p>
+			<!--<table id = 'json-data' class = 'table table-bordered table-hover'><tr> <th>SKU</th> <th>ITEM</th> <th>DESCRIPTION</th> <th>SIZE</th> <th>WEIGHT</th> <th>COLOUR</th> <th>COST</th> <th>SALE PRICE</th> <th>QUANTITY</th> <th>RESERVE</th> </table>-->
+		</div>
+		
+		<br/>
+		<p>Response Area</p><br />
+		<p class = "response"><b>Status</b></p>
+	</div>
+</body>
+</html>
